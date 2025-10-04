@@ -281,14 +281,16 @@ margin-bottom: 12px;
 .icons-three{
     border: 2.92px solid #fff;
 border-radius: 14px;
-width: 35px;
-height: 35px;
+
 display: flex;
 justify-content: center;
 align-items: center;
 }
 .yellow-icons{
     background: #f90;
+}
+.checl-icons{
+    padding: 12px 10px;
 }
 .blue-icons{
 background: #4d8dff;
