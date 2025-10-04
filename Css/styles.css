@@ -3,7 +3,7 @@ body{
         font-family: "Poppins", sans-serif;
 }
 section{
-    padding: 100px 0;
+    padding: 50px 0;
 }
 *{
     margin: 0;
@@ -14,16 +14,20 @@ ul{
 li{
     list-style: none;
 }
+img{
+    display: block;
+}
 a{
     text-decoration: none
 }
 .container{
-    padding: 0 15px;
+    padding: 0 20px;
     margin: 0 auto;
-    width: 1110px;
+    max-width: 1150px;
 }
 .container-header{
     display: flex;
+    flex-grow: 1;
     justify-content: space-between;
 }
 .menu-nav, .menu-btn{
@@ -154,8 +158,6 @@ align-items: center;
 gap: 50px;
 }
 .main-text-sctwo{
-   
-    font-family: "Poppins", sans-serif;
 font-weight: 700;
 font-size: 32px;
 text-align: center;
@@ -179,7 +181,6 @@ width: 489px;
     width: 255px;
 }
 .menu-li-cstwo h3{
-    font-family: "Poppins", sans-serif;
 font-weight: 600;
 font-size: 22px;
 color: #22343d;
@@ -206,14 +207,12 @@ background: #4d8dff;
     background: #f03e3d;
 }
 .menu-li-cstwo p {
-    font-family: "Poppins", sans-serif;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.625;
 color: #22343d;
 }
 .button-sctwo{
-    font-family: "Poppins", sans-serif;
 font-weight: 700;
 font-size: 16px;
 color: #fff;
@@ -224,10 +223,104 @@ color: #fff;
     border: none;
     width: 175px;
 }
+/* Section 2 end */
+
+/* section 3 start */
+
+.sct-three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 84px;
+}
+.text-upp-h2{
+    font-weight: 600;
+font-size: 16px;
+color: #22343d;
+margin-bottom: 8px;
+}
+.section-three h2{
+    font-weight: 700;
+font-size: 32px;
+color: #22343d;
+margin-bottom: 25px;
+}
+.text-down-h2{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.625;
+color: #22343d;
+margin-bottom: 30px;
+}
+.block-sect-three{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.text-for-h3{
+    font-weight: 600;
+font-size: 16px;
+line-height: 1.625;
+color: #22343d;
+margin-bottom: 12px;
+}
+.section-three-ul{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 25px;
+}
+.section-three-li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 450px;
+}
+.icons-three{
+    border: 2.92px solid #fff;
+border-radius: 14px;
+width: 35px;
+height: 35px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.yellow-icons{
+    background: #f90;
+}
+.blue-icons{
+background: #4d8dff;
+}
+.red-icons{
+    background: #f03e3d;
+}
+.text-after-icons{
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.625;
+color: #22343d;
+}
+/* section 3 end */
+
 /* Section Per start*/
 .carts .wrapper{
     gap: 0;
 }
+.carts h2{
+font-weight: 700;
+font-size: 34px;
+color: #22343d;
+margin-bottom: 10px;
+}
+.text-after-h2{
+font-weight: 500;
+font-size: 16px;
+color: #22343d;
+margin-bottom: 40px;
+}
+
 .menu-cart{
     display: flex;
     gap: 72px;
@@ -237,10 +330,112 @@ color: #fff;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 8px;
+}
+.cart h3{
+font-weight: 700;
+font-size: 24px;
+line-height: 1.66667;
+color: #22343d;
+margin-bottom: 8px;
+margin-top: 32px;
+}
+.text-after-h3{
+    font-family: "Montserrat", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 2.5;
+color: #22343d;
+margin-bottom: 16px;
+
+}
+
+.cart-offter{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 30px;
 }
 
 
+.menu-li-prise{
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+background: #fff;
+width: 322px;
 
+}
+.btn-prise{
+    font-family: "Montserrat", sans-serif;
+font-weight: 600;
+font-size: 18px;
+color: #fff;
+
+background: #02897a;
+padding: 11px 18px;
+border: none;
+border-radius: 8px;
+margin-bottom: 32px;
+}
+.green-cart, .green-cart h3{
+    background: #02897a;
+    color: #fff;
+}
+.green-btn{
+    color: #02897a;
+    background: #fff;
+}
+.green-text{
+    color: #fff;
+}
+.white-text{
+    color: #02897a;
+}
+
+.pricing-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.curently{
+    font-family: "Montserrat", sans-serif;
+font-weight: 700;
+font-size: 76px;
+line-height: 1.31579;
+letter-spacing: 0em;
+text-align: center;
+color: #02897a;
+margin-right: 10px;
+}
+.pricing-card-two{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.dollar{
+    font-family: "Montserrat", sans-serif;
+font-weight: 700;
+font-size: 24px;
+line-height: 1.25;
+letter-spacing: 0em;
+color: #02897a;
+}
+.per-mounts-pay{
+    font-family: "Montserrat", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.1875;
+letter-spacing: 0.01em;
+color: #afafaf;
+}
+
+.white-text{
+    color: #fff;
+}
+.white-per{
+    color: #e0e0e0;
+}
 /* section Per end */
 /* Section Screen start */
 
@@ -252,7 +447,6 @@ display: flex;
 
 }
 .screen-text{
-    font-family: "Poppins", sans-serif;
 font-weight: 600;
 font-size: 32px;
 line-height: 1.514;
@@ -261,7 +455,6 @@ margin: 49px 0px 0px 51px;
 width: 425px;
 }
 .scree-bnt{
-    font-family: "Poppins", sans-serif;
 font-weight: 600;
 font-size: 20px;
 color: #02897a;
@@ -307,7 +500,6 @@ border: none;
     list-style: none;
 }
 .text-f-res, .text-f-leg{
-    font-family: "Poppins", sans-serif;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.5;
@@ -326,7 +518,6 @@ margin-bottom: 31px;
     gap: 20px;
 }
 .li-f-res, .li-f-leg{
-    font-family: "Poppins", sans-serif;
 font-weight: 400;
 font-size: 16px;
 line-height: 2.1875;
@@ -343,7 +534,6 @@ color: #22343d;
     
 }
 .text-end-f{
-    font-family: "Poppins", sans-serif;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.875;
@@ -355,7 +545,6 @@ color: #22343d;
     gap: 30px;
 }
 .text-f-other{
-    font-family: "Poppins", sans-serif;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.5;
@@ -364,7 +553,6 @@ margin-left: auto;
 }
 .btn-f{
     padding: 8px 15px;
-    font-family: "Poppins", sans-serif;
 font-weight: 700;
 font-size: 16px;
 text-align: center;
@@ -381,7 +569,6 @@ max-width: 139px;
 .text-end-f{
     display: block;
    
-    font-family: "Poppins", sans-serif;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.875;
@@ -420,7 +607,6 @@ fill: #fff;
 }
 
 .input-f::placeholder{
-    font-family: "Poppins", sans-serif;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.75;
