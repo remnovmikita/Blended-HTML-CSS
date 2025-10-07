@@ -291,6 +291,7 @@ align-items: center;
 }
 .checl-icons{
     padding: 12px 10px;
+    fill: #fff;
 }
 .blue-icons{
 background: #4d8dff;
@@ -605,7 +606,6 @@ height: 48px;
 .logo-icons{
     stroke-width: 2px;
 stroke: #02897a;
-fill: #fff;
 }
 
 .input-f::placeholder{
