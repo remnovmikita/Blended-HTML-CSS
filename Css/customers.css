@@ -1,0 +1,239 @@
+/*#region after hrh*/
+
+.menu-nav .menu-li:nth-child(1),
+.menu-nav .menu-li:nth-child(2)
+{
+    font-weight: 400;
+}
+
+.menu-nav .menu-li:nth-child(3){
+    font-weight: 600;
+}
+/*#endregion after hrh*/
+
+/*#region our-clients*/
+.sct-our-clients h1{
+    font-size: 40px;
+color: #22343d;
+}
+.sct-our-clients .wrapper{
+    gap: 0;
+}
+.menu-ul-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    margin-top: 66px;
+}
+/*#endregion our-clients*/
+
+/*#region Choose prodykt*/
+.choose-proguct .wrapper{
+gap: 0;
+}
+
+.choose-proguct h2{
+    font-size: 34px;
+text-align: center;
+color: #22343d;
+margin-bottom: 50px;
+}
+
+.ul-menu-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.li-menu-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    border: 1px solid #dedede;
+border-radius: 10px;
+padding: 40px 50px;
+width: 350px;
+height: 305px;
+}
+.li-menu-two h3{
+    font-size: 24px;
+line-height: 1.375;
+letter-spacing: 0em;
+text-align: center;
+color: #22343d;
+margin-bottom: 16px;
+}
+.li-menu-two p{
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.6875;
+letter-spacing: 0.01em;
+text-align: center;
+color: #22343d;
+}
+
+.ul-menu-two .li-menu-two:nth-child(1) .contriner-for-icons{
+    background: #02897a;
+}
+.ul-menu-two .li-menu-two:nth-child(2) .contriner-for-icons{
+    background: #4d8dff;
+}
+.ul-menu-two .li-menu-two:nth-child(3) .contriner-for-icons{
+    background: #f03e3d;
+}
+.contriner-for-icons{
+    fill: #fff;
+}
+.contriner-for-icons{
+    margin-bottom: 32px;
+
+    border-radius: 19px;
+width: 50px;
+height: 50px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+/*#endregion Choose prodykt*/
+
+
+
+/*#region how-product-worc*/
+
+.how-product-worc h2{
+    font-size: 34px;
+text-align: center;
+color: #22343d;
+margin-bottom: 74px;
+}
+.how-product-worc .wrapper{
+    gap: 0;
+}
+.step{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.step-ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 16px;
+    max-width: 438px;
+}
+.step-ul li:nth-child(1){
+    font-weight: 500;
+font-size: 20px;
+text-align: center;
+color: #22343d;
+}
+
+.step-ul li:nth-child(2){
+font-weight: 600;
+font-size: 24px;
+text-align: center;
+color: #22343d;
+}
+.step-ul li:nth-child(3){
+font-weight: 400;
+font-size: 16px;
+line-height: 1.75;
+color: #22343d;
+}
+
+.step-li{
+    display: flex;
+    flex-direction: row;
+}
+.step li:nth-child(1) .step-ul{
+    margin-left: 89px;
+}
+.step li:nth-child(2) .step-ul{
+    margin-right: 76px;
+}
+.step li:nth-child(3) .step-ul{
+    margin-left: 88px;
+}
+.btn-product-worc{
+    font-family: "Montserrat", sans-serif;
+font-weight: 600;
+font-size: 18px;
+color: #fff;
+
+border-radius: 8px;
+width: 224px;
+transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+background: #02897a;
+border: none;
+
+margin-top: 78px;
+
+padding: 11px 18px;
+}
+.btn-product-worc:hover,
+.btn-product-worc:focus{
+    background: #fff;
+    color: #02897a;
+}
+/*#endregion how-product-worc*/
+
+/*#region join*/
+
+.join .wrapper{
+    gap: 0;
+}
+
+.join h2{
+    font-size: 32px;
+text-align: center;
+color: #22343d;
+margin-bottom: 93px;
+max-width: 537px;
+}
+.join-main-ul{
+    display: flex;
+    gap: 227px;
+}
+.join-main-ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.join-second-ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+
+    font-weight: 400;
+font-size: 18px;
+line-height: 1.77778;
+text-align: center;
+color: #22343d;
+}
+
+.join-main-ul li img{
+    margin-bottom: 72px;
+}
+.join-main-ul li h3{
+    font-weight: 500;
+font-size: 24px;
+line-height: 1.16667;
+color: #000;
+margin-bottom: 16px;
+}
+.join-main-ul li p{
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.75;
+color: #000;
+}
+/*#endregion join*/

@@ -16,7 +16,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="Css/styles.css" />
-    <title>Business promotion -</title>
+    <title>Business promotion</title>
   </head>
   <body>
     <header class="nav-header">
@@ -27,9 +27,9 @@
 
         <nav class="nav-menu">
           <ul class="menu-nav">
-            <li class="menu-li li-start"><a href="">Pricing</a></li>
-            <li class="menu-li"><a href="">Product</a></li>
-            <li class="menu-li"><a href="">Customers</a></li>
+            <li class="menu-li"><a href="/Prising.html">Pricing</a></li>
+            <li class="menu-li"><a href="#">Product</a></li>
+            <li class="menu-li"><a href="/Customer.html">Customers</a></li>
             <li class="menu-li"><a href="">Resources</a></li>
           </ul>
         </nav>
@@ -481,7 +481,7 @@ reach your financial goal.</p>
     <div class="main-div">
     <div class="div-text">
       <p>Join 100 Compannies who boost their business with Product</p>
-      <button>Get This</button>
+      <button type="button">Get This</button>
     </div>
     <img src="./images/graphics.svg" alt="graphics">
     </div>
@@ -549,7 +549,7 @@ reach your financial goal.</p>
               </svg>
             </div>
 
-            <button class="btn-f">Sign up Now</button>
+            <button class="btn-f" type="button">Sign up Now</button>
           </div>
         </div>
         <p class="text-end-f">Made With Love By Figmaland All Right Reserved</p>
@@ -558,10 +558,30 @@ reach your financial goal.</p>
 
     <div class="modal">
       <div class="modal-overlay">
-
+        <button class="modal-close" type="button"><svg class="" width="" height="">
+        <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+        </svg></button>
+        <form action="form" class="form-overlay">
+          <div class="name">
+        <label for="user-name"></label>
+          <input type="text" id="user-name" name="user-name">
+        
+        </div>
+        <div class="email">
+        <label for="user-email"></label>
+          <input type="email" id="user-email" name="user-email">
+        
+        </div>
+        <div class="text-area">
+        <label for="user-comment"></label>
+          <textarea name="user-comment" id="user-comment">           
+          </textarea>
+        </div>
+        </form>
+        <button class="modal-btn">Send</button>
       </div>
     </div>
 
-    <script src="scricp.js"></script>
+    <script src="open-modal.js" defer></script>
   </body>
 </html>
