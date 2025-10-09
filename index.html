@@ -555,26 +555,28 @@ reach your financial goal.</p>
         <p class="text-end-f">Made With Love By Figmaland All Right Reserved</p>
       </div>
     </footer>
-
+<script src="open-modal.js" defer></script>
     <div class="modal">
       <div class="modal-overlay">
-        <button class="modal-close" type="button"><svg class="" width="" height="">
+        <button class="modal-close" type="button"><svg class="" width="10" height="10">
         <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
         </svg></button>
+
+        <p class="form-text">Send a message</p>
         <form action="form" class="form-overlay">
           <div class="name">
-        <label for="user-name"></label>
-          <input type="text" id="user-name" name="user-name">
+        <label for="user-name" class="text-label">Name</label>
+          <input type="text" id="user-name" name="user-name" class="form-input">
         
         </div>
         <div class="email">
-        <label for="user-email"></label>
-          <input type="email" id="user-email" name="user-email">
+        <label for="user-email" class="text-label" >Email</label>
+          <input type="email" id="user-email" name="user-email" class="form-input" placeholder="Email">
         
         </div>
         <div class="text-area">
-        <label for="user-comment"></label>
-          <textarea name="user-comment" id="user-comment">           
+        <label for="user-comment" class="text-label">Message</label>
+          <textarea name="user-comment" id="user-comment" class="form-textarea" placeholder="Message">           
           </textarea>
         </div>
         </form>
@@ -582,6 +584,6 @@ reach your financial goal.</p>
       </div>
     </div>
 
-    <script src="open-modal.js" defer></script>
+    
   </body>
 </html>

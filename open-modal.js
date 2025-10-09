@@ -1,6 +1,6 @@
 const OpenBtnMenu = document.querySelector('.btn-section-four');
 const modalMenu = document.querySelector('.modal');
-const CloseMdMenu = document.querySelector('.close-nav-menu');
+const CloseMdMenu = document.querySelector('.modal-close');
 
 OpenBtnMenu.addEventListener('click', () => {
     modalMenu.classList.add('is-open');

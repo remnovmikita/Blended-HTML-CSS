@@ -8,5 +8,162 @@
 .menu-nav .menu-li:nth-child(1){
     font-weight: 600;
 }
+/*#region Carts*/
 
+.carts h1{
+    font-weight: 700;
+font-size: 40px;
+text-align: center;
+color: #22343d;
+margin-top: 32px;
+margin-bottom: 16px;
+}
+
+
+.down-h1{
+font-weight: 500;
+font-size: 16px;
+text-align: center;
+color: #22343d;
+margin-bottom: 49px;
+}
+.up-h1{
+    font-weight: 600;
+font-size: 24px;
+color: #22343d;
+}
+
+
+/*#endregion Carts*/
 /*#endregion */
+
+/*#region enterprise*/
+.enterprise .wrapper{
+    gap: 0;
+}
+.enterprise h2{
+    font-weight: 600;
+font-size: 24px;
+color: #22343d;
+margin-bottom: 16px;
+}
+.text-enterprise-one{
+font-weight: 700;
+font-size: 34px;
+color: #22343d;
+margin-bottom: 8px;
+}
+
+.text-enterprise-two{
+font-weight: 400;
+font-size: 18px;
+color: #22343d;
+margin-bottom: 32px;
+}
+
+
+.enterprise-btn{
+    font-family: "Montserrat", sans-serif;
+font-weight: 600;
+font-size: 18px;
+color: #fff;
+
+border: none;
+border-radius: 8px;
+width: 224px;
+background: #02897a;
+padding: 11px 18px;
+}
+.enterprise-btn:hover,
+.enterprise-btn:focus{
+    background: #fff;
+    color: #02897a;
+}
+/*#endregion enterprise*/
+.frenquetty .wrapper{
+    gap: 0;
+}
+.frenquetty h2{
+    font-weight: 700;
+font-size: 34px;
+color: #22343d;
+margin-bottom: 8px;
+}
+.frenquetty-after-h2{
+    font-weight: 400;
+font-size: 18px;
+color: #22343d;
+margin-bottom: 50px;
+}
+.frenq-menu{
+    display: flex;
+    flex-direction: column;
+align-items: start;
+justify-content: center;
+gap: 16px;
+}
+
+.frenq-menu-li{
+    display: flex;
+    align-items: start;
+    justify-content: center ;
+
+    font-weight: 500;
+font-size: 18px;
+color: #22343d;
+}
+.frenq-menu-li svg{
+    margin-right: 16px;
+}
+.frenq-menu li:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    
+}
+.frenq-menu li:nth-child(2) p{
+font-weight: 400;
+font-size: 16px;
+color: #22343d;
+max-width: 920px;
+margin-top: 14px;
+}
+/*#region great-effect*/
+
+.great-effect h2{
+font-weight: 700;
+font-size: 34px;
+color: #22343d;
+margin-bottom: 56px;
+}
+.great-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.great-block{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 23px;
+    gap: 14px;
+
+    font-weight: 600;
+font-size: 24px;
+text-align: center;
+color: #22343d;
+}
+.great-about{
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.75;
+color: #22343d;
+}
+.great-ul{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+/*#endregion great-effect*/
+
+
